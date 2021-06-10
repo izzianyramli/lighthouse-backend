@@ -23,15 +23,15 @@ module.exports = {
     detailsOfTechnology: {
       type: 'string'
     },
-    facilitationNeeded: {
-      type: 'string'
-    },
-    owner: {
-      model: 'company'
-    },
     phase: {
       type: 'json'
-    }
+    },
+    projectUpdate: {
+      model: 'projectUpdate'
+    },
+    lighthouse: {
+      model: 'lighthouse'
+    },
   },
 
 };

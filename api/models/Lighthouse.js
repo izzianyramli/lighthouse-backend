@@ -14,30 +14,34 @@ module.exports = {
     lighthouseType: {
       type: 'string'
     },
-    productivity: {
+    KPIproductivity: {
       type: 'json' //productivity, Overall Equipment Effectiveness (OEE), Operating cost, Quality cost
     },
-    sustainability: {
+    KPIsustainability: {
       type: 'json'
     },
-    agility: {
+    KPIagility: {
       type: 'json',
       columnType: 'array'
     },
-    speedToMarket: {
+    KPIspeedToMarket: {
       type: 'json',
       columnType: 'array'
     },
-    customization: {
+    KPIcustomization: {
       type: 'json',
       columnType: 'array'
     },
-    others: {
+    starRanking: {
       type: 'string'
+    },
+    projects: {
+      collection: 'project',
+      via: 'lighthouse'
     },
     owner: {
       model: 'company'
-    }
+    },
   },
 
 };
