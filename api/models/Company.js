@@ -58,6 +58,10 @@ module.exports = {
       type: 'json',
       columnType: 'array'
     },
+    projectInvolved: {
+      collection: 'project',
+      via: 'vendor'
+    }
   },
 
 };

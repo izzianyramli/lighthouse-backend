@@ -27,10 +27,14 @@ module.exports = {
       type: 'json'
     },
     projectUpdate: {
-      model: 'projectUpdate'
+      collection: 'projectUpdate',
+      via: 'owner'
     },
     lighthouse: {
       model: 'lighthouse'
+    },
+    vendor: {
+      model: 'company'
     },
   },
 
