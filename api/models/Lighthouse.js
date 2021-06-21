@@ -15,22 +15,19 @@ module.exports = {
       type: 'string'
     },
     KPIproductivity: {
-      type: 'json' //productivity, Overall Equipment Effectiveness (OEE), Operating cost, Quality cost
+      type: 'string' //productivity, Overall Equipment Effectiveness (OEE), Operating cost, Quality cost
     },
     KPIsustainability: {
-      type: 'json'
+      type: 'string'
     },
     KPIagility: {
-      type: 'json',
-      columnType: 'array'
+      type: 'string'
     },
     KPIspeedToMarket: {
-      type: 'json',
-      columnType: 'array'
+      type: 'string'
     },
     KPIcustomization: {
-      type: 'json',
-      columnType: 'array'
+      type: 'string'
     },
     starRanking: {
       type: 'string'
