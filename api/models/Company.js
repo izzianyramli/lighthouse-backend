@@ -49,7 +49,7 @@ module.exports = {
     },
     lighthouseDetails: {
       collection: 'lighthouse',
-      via: 'owner'
+      via: 'company'
     },
     status: {
       type: 'string'

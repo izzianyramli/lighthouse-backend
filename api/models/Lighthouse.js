@@ -36,7 +36,7 @@ module.exports = {
       collection: 'project',
       via: 'lighthouse'
     },
-    owner: {
+    company: {
       model: 'company'
     },
   },

@@ -28,7 +28,7 @@ module.exports = {
     },
     projectUpdate: {
       collection: 'projectUpdate',
-      via: 'owner'
+      via: 'project'
     },
     lighthouse: {
       model: 'lighthouse'

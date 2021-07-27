@@ -20,9 +20,10 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'GET /project/count': { action: 'project/count' },
+  'GET /count/project': { action: 'count/project' },
   'POST /login': 'AuthController.login',
-  '/logout': 'AuthContoller.logout',
+  'GET /count/company-source': { action: 'count/company-source' },
+  'GET /count/company-location': { action: 'count/company-location' },
 
 
   /***************************************************************************

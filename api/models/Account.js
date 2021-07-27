@@ -45,6 +45,9 @@ module.exports = {
       type: 'boolean',
       defaultsTo: false,
     },
+    accountType: {
+      type: 'string',
+    },
   },
   customToJSON: function () {
     return _.omit(this, ['password']);

@@ -21,7 +21,7 @@ module.exports = {
     problems: {
       type: 'string',
     },
-    owner: {
+    project: {
       model: 'project'
     }
   },
