@@ -88,8 +88,6 @@ config/local.js
 ################################################
 
 node_modules/
-package-lock.json
-.gitignore
 
 ################################################
 #
@@ -134,3 +132,4 @@ lib-cov
 *.out
 *.pid
 
+package-lock.json
