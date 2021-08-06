@@ -47,6 +47,7 @@ module.exports = {
     },
     accountType: {
       type: 'string',
+      defaultsTo: 'user',
     },
   },
   customToJSON: function () {
