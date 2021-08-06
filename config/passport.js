@@ -31,7 +31,7 @@ passport.use(new LocalStrategy({
         lastName: user.lastName,
         company: user.companyName,
         accountType: user.accountType,
-        approvalStatus: user.approval,
+        approval: user.approval,
       };
       return cb(null, userDetails, { message: 'Login Succesful' });
     });
