@@ -37,10 +37,6 @@ module.exports = {
       required: true,
       // encrypt: true,
     },
-    policy: {
-      type: 'boolean',
-      // required: true
-    },
     approval: {
       type: 'boolean',
       defaultsTo: false,
